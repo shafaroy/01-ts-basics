@@ -4,7 +4,7 @@ function logStatus(status: "loading" | "success" | "error"): void {
   } else if (status === "success") {
     console.log("Success!");
   } else if (status === "error") {
-    console.log("Somethin went wrong");
+    console.log("Something went wrong");
   }
 }
 
